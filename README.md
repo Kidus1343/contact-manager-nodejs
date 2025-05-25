@@ -26,12 +26,19 @@ A secure and scalable RESTful API for managing personal contacts, built with **N
 ## 📂 Project Structure
 
 📁 server/
+
 ├── controllers/
+
 ├── middleware/
+
 ├── models/
+
 ├── routes/
+
 ├── config/
+
 ├── utils/
+
 └── server.js
 
 ---
@@ -58,11 +65,11 @@ A secure and scalable RESTful API for managing personal contacts, built with **N
    ```bash
    git clone https://github.com/yourusername/contact-api-node.git
    cd contact-api-node
-#Install dependencies
-npm install
-Create .env file
+###Install dependencies
+-npm install
+-Create .env file
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-Run the server
-npm run dev
+#Run the server
+#npm run dev
